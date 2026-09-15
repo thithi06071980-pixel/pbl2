@@ -101,6 +101,7 @@ Student Student::fromLine(const string &line) {
 	sv.setTenlop(datas[4]);
 	sv.setKhoa(datas[5]);
 	sv.setSdt(datas[6]);
+	return sv;
 } 
 
 
