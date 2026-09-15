@@ -8,18 +8,18 @@ class Subject{
 		string mamon;
 		string tenmon;
 		int sotinchi;
-		float diem;
+		double diem;
 	public:
 	    Suject();
-		Subject(string mamon, string tenom, iny sotinchi, double diem);
+		Subject(string mamon, string tenom, int sotinchi, double diem);
 		string getMamon() const;
 		string getTenmon() const;
 		int getSotinchi() const;	
-		float getDiem() const;
+		double getDiem() const;
 		void setMamon(const string& mamon);
 		void setTenmon(const string& tenmon);
 		void setSotinchi(int sotinchi);
-		void setDiem(flaot diem);
+		void setDiem(double diem);
 		void input();
 		void output() const;
 		string toline() const;
